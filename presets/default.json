@@ -1,0 +1,21 @@
+{
+	"schema_version": 3,
+	"preset_name": "default",
+	"pads": [
+		{ "trigger_note": -1, "trigger_gamepad_button": -1, "chord_notes": [], "output_channel": 0, "velocity_mode": "passthrough", "fixed_velocity": 100 },
+		{ "trigger_note": -1, "trigger_gamepad_button": -1, "chord_notes": [], "output_channel": 0, "velocity_mode": "passthrough", "fixed_velocity": 100 },
+		{ "trigger_note": -1, "trigger_gamepad_button": -1, "chord_notes": [], "output_channel": 0, "velocity_mode": "passthrough", "fixed_velocity": 100 },
+		{ "trigger_note": -1, "trigger_gamepad_button": -1, "chord_notes": [], "output_channel": 0, "velocity_mode": "passthrough", "fixed_velocity": 100 },
+		{ "trigger_note": -1, "trigger_gamepad_button": -1, "chord_notes": [], "output_channel": 0, "velocity_mode": "passthrough", "fixed_velocity": 100 },
+		{ "trigger_note": -1, "trigger_gamepad_button": -1, "chord_notes": [], "output_channel": 0, "velocity_mode": "passthrough", "fixed_velocity": 100 },
+		{ "trigger_note": -1, "trigger_gamepad_button": -1, "chord_notes": [], "output_channel": 0, "velocity_mode": "passthrough", "fixed_velocity": 100 },
+		{ "trigger_note": -1, "trigger_gamepad_button": -1, "chord_notes": [], "output_channel": 0, "velocity_mode": "passthrough", "fixed_velocity": 100 }
+	],
+	"input_mode": "midi",
+	"input_port_name": "",
+	"output_mode": "virtual",
+	"output_virtual_name": "ChordPad",
+	"stick_enabled": true,
+	"stick_channel": 0,
+	"stick_cc": 28
+}

@@ -1,0 +1,66 @@
+{
+	"title": "ChordPad Keyboard Bridge (rtyufghj -> MIDI, Ableton Live only)",
+	"rules": [
+		{
+			"description": "r/t/y/u/f/g/h/j -> ChordPad pad triggers via MIDI on the \"ChordPad Keyboard\" IAC port. Only active while Ableton Live is frontmost; every other app sees these keys completely unmodified.",
+			"manipulators": [
+				{
+					"type": "basic",
+					"from": { "key_code": "r" },
+					"to": [ { "shell_command": "~/.chordpad/keyboard_bridge/chordpad_midi_send on 60" } ],
+					"to_after_key_up": [ { "shell_command": "~/.chordpad/keyboard_bridge/chordpad_midi_send off 60" } ],
+					"conditions": [ { "type": "frontmost_application_if", "bundle_identifiers": ["^com\\.ableton\\.live$"] } ]
+				},
+				{
+					"type": "basic",
+					"from": { "key_code": "t" },
+					"to": [ { "shell_command": "~/.chordpad/keyboard_bridge/chordpad_midi_send on 61" } ],
+					"to_after_key_up": [ { "shell_command": "~/.chordpad/keyboard_bridge/chordpad_midi_send off 61" } ],
+					"conditions": [ { "type": "frontmost_application_if", "bundle_identifiers": ["^com\\.ableton\\.live$"] } ]
+				},
+				{
+					"type": "basic",
+					"from": { "key_code": "y" },
+					"to": [ { "shell_command": "~/.chordpad/keyboard_bridge/chordpad_midi_send on 62" } ],
+					"to_after_key_up": [ { "shell_command": "~/.chordpad/keyboard_bridge/chordpad_midi_send off 62" } ],
+					"conditions": [ { "type": "frontmost_application_if", "bundle_identifiers": ["^com\\.ableton\\.live$"] } ]
+				},
+				{
+					"type": "basic",
+					"from": { "key_code": "u" },
+					"to": [ { "shell_command": "~/.chordpad/keyboard_bridge/chordpad_midi_send on 63" } ],
+					"to_after_key_up": [ { "shell_command": "~/.chordpad/keyboard_bridge/chordpad_midi_send off 63" } ],
+					"conditions": [ { "type": "frontmost_application_if", "bundle_identifiers": ["^com\\.ableton\\.live$"] } ]
+				},
+				{
+					"type": "basic",
+					"from": { "key_code": "f" },
+					"to": [ { "shell_command": "~/.chordpad/keyboard_bridge/chordpad_midi_send on 64" } ],
+					"to_after_key_up": [ { "shell_command": "~/.chordpad/keyboard_bridge/chordpad_midi_send off 64" } ],
+					"conditions": [ { "type": "frontmost_application_if", "bundle_identifiers": ["^com\\.ableton\\.live$"] } ]
+				},
+				{
+					"type": "basic",
+					"from": { "key_code": "g" },
+					"to": [ { "shell_command": "~/.chordpad/keyboard_bridge/chordpad_midi_send on 65" } ],
+					"to_after_key_up": [ { "shell_command": "~/.chordpad/keyboard_bridge/chordpad_midi_send off 65" } ],
+					"conditions": [ { "type": "frontmost_application_if", "bundle_identifiers": ["^com\\.ableton\\.live$"] } ]
+				},
+				{
+					"type": "basic",
+					"from": { "key_code": "h" },
+					"to": [ { "shell_command": "~/.chordpad/keyboard_bridge/chordpad_midi_send on 66" } ],
+					"to_after_key_up": [ { "shell_command": "~/.chordpad/keyboard_bridge/chordpad_midi_send off 66" } ],
+					"conditions": [ { "type": "frontmost_application_if", "bundle_identifiers": ["^com\\.ableton\\.live$"] } ]
+				},
+				{
+					"type": "basic",
+					"from": { "key_code": "j" },
+					"to": [ { "shell_command": "~/.chordpad/keyboard_bridge/chordpad_midi_send on 67" } ],
+					"to_after_key_up": [ { "shell_command": "~/.chordpad/keyboard_bridge/chordpad_midi_send off 67" } ],
+					"conditions": [ { "type": "frontmost_application_if", "bundle_identifiers": ["^com\\.ableton\\.live$"] } ]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <!-- macOS-style icon: black rounded square (standard ~100px margin) with a
+       single centered pure-red circle, like one arcade button. -->
+  <rect x="100" y="100" width="824" height="824" rx="184" fill="#000000"/>
+  <circle cx="512" cy="512" r="270" fill="#ff0000"/>
+</svg>

@@ -100,4 +100,8 @@
 
 ## 授權
 
-ChordPad 以 [MIT License](LICENSE) 釋出。`addons/godot_rtmidi`（RtMidi 的 Godot 擴充）屬於其原作者，授權依其原始專案。
+ChordPad 以 [MIT License](LICENSE) 釋出。
+
+使用的第三方元件：
+- [godot-rtmidi](https://github.com/NullMember/godot-rtmidi)（Malik Enes Şafak）：The Unlicense（公眾領域），內含 [RtMidi](https://github.com/thestk/rtmidi)（Gary P. Scavone，MIT 類授權）
+- [Godot Engine](https://godotengine.org/)：MIT License

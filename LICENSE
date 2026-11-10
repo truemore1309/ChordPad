@@ -23,6 +23,7 @@ SOFTWARE.
 ---------------------------------------------------------------------------
 Third-party components (not covered by the license above):
 
-- addons/godot_rtmidi: GDExtension wrapper around RtMidi. See its own
-  license; RtMidi itself (c) Gary P. Scavone, MIT-style license.
+- addons/godot_rtmidi: godot-rtmidi by Malik Enes Safak (NullMember),
+  https://github.com/NullMember/godot-rtmidi -- released under The Unlicense
+  (public domain). It bundles RtMidi (c) Gary P. Scavone, MIT-style license.
 - Godot Engine (c) Juan Linietsky, Ariel Manzur and contributors, MIT license.
